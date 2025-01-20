@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-style: italic;
+    margin-top: 100px;
+}
+
+#repoList {
+    margin-top: 20px;
+    list-style-type: none; /* Remove default list styles */
+    padding: 0;
+}
+
+#repoList li {
+    background-color: #f0f0f0; /* Light background for list items */
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 4px;
+    font-size: 15px;
+    text-align: center;
+    margin-left:525px;
+    width: 20%;
+}
+
+.button {
+    padding: 10px;
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    font-style: italic;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: pink;
+}
+
+#fetchReposBtn {
+    display: block;
+    margin: 20px auto; /* Center button */
+}
